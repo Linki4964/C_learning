@@ -1,0 +1,6 @@
+{
+    "c_CompilerPath": "gcc",
+    "c_ExecutablePath": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+    "c_ExecutableArgs": [],
+    "c_standard": "c11"
+}
