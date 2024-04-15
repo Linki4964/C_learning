@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+/*重置浏览器的默认样式*/
+*{margin:0; padding:0;}
+/*全局控制*/
+body{ background-color:#ededed; font-family:"楷体"; font-size:16px; color:#a5a5a5;}
+/* 实验步骤1-2：标题模块样式设置 */
+.header{
+	width: 60 px;
+	height: 56 px;
+	margin: 0 auto 5px;
+	line-height: 80px;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: rgb(100, 96, 96);
+}
+.header h1{ font-weight:normal;}
+
+.header strong{
+	font-weight:normal;
+	font-size: 30px;
+}
+/* 实验步骤1-4：副标题样式设置 */
+.header em{
+	font-size:normal;
+	font-size: 15px;
+}
+/* 实验步骤2-2：分类模块总体样式设置 */
+.fenlei{
+	
+	width:  600px;
+	margin:   40px;
+	text-align: center;
+}
+/* 实验步骤2-3：分类模块标题样式设置 */
+.fenlei h2{
+	font-size: normal;
+	font-family: "微软雅黑";
+	color:  black;
+	height: 40px;
+	line-height: 1px;
+	text-align: center;
+	}
+/* 实验步骤2-4：分类模块描述文本样式设置 */
+.fenlei p{
+	line-height: 20px;
+	text-align:  center;
+	font-size: 18px;
+	}
+/* 实验步骤3-2：热卖模块总体样式设置 */
+.bestseller{
+	width: 1000px;
+	margin: auto 0;
+	align:
+}
+/* 实验步骤3-3：热卖模块描述文本样式设置 */
+.bestseller .txt{
+	width:700px;
+	line-height:  40px;
+	text-indent: 2em;
+	}
+.bestseller .txt em{
+	font-style: normal;
+	text-decoration:  underline;
+	text-align: center;
+	}
+/* 实验步骤4-3：售后信息样式设置 */
+.shouhou{
+	width: 700px;px;
+	margin: 0 auto;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:16px;
+	font-weight:bold;
+	}
+/* 实验步骤4-4：店主信息样式设置 */	
+.boss{
+	width:600px; 
+	margin:0 auto;
+}
+.boss h3,.boss p{ text-indent:2em;}
+.boss h3{
+	height: 30px;
+	line-height: 30px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	font-weight:normal
+	}
+.boss p{
+	font-style: italic;
+	line-height: 26px;
+	font-size: 14px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
