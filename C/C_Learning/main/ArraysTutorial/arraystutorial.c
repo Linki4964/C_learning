@@ -63,10 +63,124 @@
 //     printf("相同的数组为%d\n",i);
 // }
 
- //
+ //二维函数的输入和输出
+// int main()
+// {
+// int a [2][3];//先行后列
+// int i,j;
+// for(i=0;i<2;i++) {
+//     for(j=0;j<3;j++) {
+//         scanf("%d",&a[i][j]);
+//     }
+// }
+
+// for(i=0;i<2;i++){
+// for(j=0;j<3;j++){
+//     printf("%d",a[i][j]);
+//     printf("\n");
+//   }
+// }
+// printf("\n");
+// }
+//这里可以寻找小于0的数据并且将其替换成0
+// int main()
+// {
+//     float a[4][3] = {{20.0,-3.5,-6.0},{-10.0,2.2,50.0},{-9.1,71.0,-20.0},{3.0,8.0,-11.0}};
+//     for(int i = 0;i<4;i++){
+//         for(int j = 0;j<3;j++)
+//         if(a[i][j]<0)
+//         printf("%f",a[i][j]);
+//         else{
+//         printf("%f",0);
+//         printf("\n");
+//         }
+//     }
+// }
+// 古诗词填空
+// 
 int main()
 {
+    int i,a[10];
+    int n=0;
+    printf("请依次输入数组的值\n");
+    for(n=0,i=1;i<=10;i++,n++){
+        scanf("%d",&a[n]);
+    }
+    printf("你输入的数组为");
+    for(n=0;n<=9;n++){
+        printf("%d ",a[n]);[]
+    }
+    printf("经过倒序处理的数据为：");
+    for(n=9;n>=0;n--){
+        printf("%d ",a[n]);
+    }
+    return 0;
+}
+//字符数组的引用
+// int main(){
+// char string[10]={'i',' ','a','m',' ','a','b','o','y'};
+// int i;
+// for(i=0;i<=10;i++){
+// printf("%c",string[i]);
+// printf("\n");
+// }
+// }
 
+//古诗词填空小程序
+// 
+// int main() {
+//     char a[] = "床前明月 \n";
+//     char tmp[10]; // 定义一个足够大的数组来存储输入
+//     printf("请对这个古诗词进行填空：\n");
+//     printf("床前明月 ");
+//     printf("请进行填空：");
+//     scanf("%9s", tmp); // 限制输入的最大长度为9，避免溢出
+
+//     // 将输入复制到字符串a的正确位置
+//     if (tmp[0] != '\0') { // 只有当输入不为空时才进行复制
+//         a[9] = tmp[0];
+//     }
+//     printf("%s", a);
+
+//     return 0;
+// }
+//练习：矩阵
+//以下的5X5的方阵，找出3个相邻的3个0元素
+//输入一行最多包含80个字符的英文，统计其中大写小写数字空格和其他字符的数量
+
+// int main(){
+// int i,upper=0,lower=0,dight=0,space=0,other=0;
+// char text[80];
+// printf("请输入一行英文句子:\n");
+// gets(text);
+// for(i =0;text[i] != '\0';i++){
+//     if(isupper(text[i])){
+//     upper ++;
+//     }
+//     else if(islower(text[i])) {
+//      lower++;
+//     }
+//     else if(isdigit(text[i])){
+//     dight++;
+//     }
+//     else if(isspace(text[i]))
+//     {
+//    space++;
+//     }
+//     else{
+//         other++;
+//     }
+    
+// }
+// printf("你输入的是:%s\n",text);
+// printf("大写的数量为:%d\n",upper);
+// printf("小写的数量为:%d\n",lower);
+// printf("数字的数量为:%d\n",dight);
+// printf("空格的数量为:%d\n",space);
+// printf("其他的数量为%d\n",other);
     
 
-}
+
+// }
+
+
