@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "6bf091a769fc01b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "48850bd4f5704155",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fa76c812548fa4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C_Learning/main/Loop_Structures/循环结构.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be2afbeb83df1a5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "49490e1c1032ce34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cce46ffb0dd6ffa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6965f0e054748bec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bde2ce4cfa27060e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "149fe1fc8ff17e5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8798d4c0ea88160d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb69814d4f6092e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C_Learning/main/Loop_Structures/循环结构.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e617efb3f807e59",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C_Learning/main/Loop_Structures/循环结构.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b0140fc09485e941",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6bf506d5eb1a9f1f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C_Learning/main/Loop_Structures/循环结构.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4fa76c812548fa4e",
+  "lastOpenFiles": [
+    "未命名.md",
+    "C_Learning/main/Loop_Structures/循环结构.md",
+    "未命名",
+    "C_Learning/main/Function/函数.md",
+    "C_Learning/main/Conditional_Statements/选择结构.md",
+    "C_Learning/main/ArraysTutorial/数组.md"
+  ]
+}

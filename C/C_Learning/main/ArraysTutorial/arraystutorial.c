@@ -98,24 +98,24 @@
 // }
 // 古诗词填空
 // 
-int main()
-{
-    int i,a[10];
-    int n=0;
-    printf("请依次输入数组的值\n");
-    for(n=0,i=1;i<=10;i++,n++){
-        scanf("%d",&a[n]);
-    }
-    printf("你输入的数组为");
-    for(n=0;n<=9;n++){
-        printf("%d ",a[n]);[]
-    }
-    printf("经过倒序处理的数据为：");
-    for(n=9;n>=0;n--){
-        printf("%d ",a[n]);
-    }
-    return 0;
-}
+// int main()
+// {
+//     int i,a[10];
+//     int n=0;
+//     printf("请依次输入数组的值\n");
+//     for(n=0,i=1;i<=10;i++,n++){
+//         scanf("%d",&a[n]);
+//     }
+//     printf("你输入的数组为");
+//     for(n=0;n<=9;n++){
+//         printf("%d ",a[n]);[]
+//     }
+//     printf("经过倒序处理的数据为：");
+//     for(n=9;n>=0;n--){
+//         printf("%d ",a[n]);
+//     }
+//     return 0;
+// }
 //字符数组的引用
 // int main(){
 // char string[10]={'i',' ','a','m',' ','a','b','o','y'};
@@ -178,9 +178,44 @@ int main()
 // printf("数字的数量为:%d\n",dight);
 // printf("空格的数量为:%d\n",space);
 // printf("其他的数量为%d\n",other);
-    
-
-
 // }
+har messagepool[100][200];
 
-
+int num = 0;
+int p = 0;
+void push(){
+    char str[200];
+    if(num>100)
+       printf("消息已满!\n");
+    else 
+       num++;
+    printf("消息>>");
+    scanf("%s",str);
+    strncpy(messagepool[p],str,200);
+    p = ++p %100;
+}
+void play()
+{
+    printf("------消息池------\n");
+    for(int i=0;i<num;i++)
+    put(messagepool[i]);
+    printf("————————\n");
+}
+void main()
+{
+    int cmm;
+    printf("命令 = [发布信息输入1]|[显示消息输入2]|[退出输入3]\n");
+    while (cmm!=3)
+    {
+        printf("命令>>>");
+        scanf("%d",&cmm);
+        switch(cmm)
+        {
+            case 1:
+                push();break;
+            case 2:
+                display();break;
+        }
+    }
+    
+}
